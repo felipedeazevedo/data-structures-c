@@ -1,0 +1,3 @@
+/Users/felipeazevedo/Documents/ucb/programacao-estruturada/c-projects/cmake-build-debug/CMakeFiles/fatorial.dir
+/Users/felipeazevedo/Documents/ucb/programacao-estruturada/c-projects/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/felipeazevedo/Documents/ucb/programacao-estruturada/c-projects/cmake-build-debug/CMakeFiles/rebuild_cache.dir
