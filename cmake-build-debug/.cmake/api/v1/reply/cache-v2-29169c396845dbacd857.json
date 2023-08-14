@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/felipeazevedo/Documents/ucb/programacao-estruturada/c-projects/cmake-build-debug"
+			"value" : "/Users/felipeazevedo/Documents/ucb/estrutura-de-dados/c-projects/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -383,7 +383,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/felipeazevedo/Documents/ucb/programacao-estruturada/c-projects/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "/Users/felipeazevedo/Documents/ucb/estrutura-de-dados/c-projects/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -443,7 +443,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/felipeazevedo/Documents/ucb/programacao-estruturada/c-projects"
+			"value" : "/Users/felipeazevedo/Documents/ucb/estrutura-de-dados/c-projects"
 		},
 		{
 			"name" : "CMAKE_INSTALL_NAME_TOOL",
@@ -1015,7 +1015,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/felipeazevedo/Documents/ucb/programacao-estruturada/c-projects/cmake-build-debug"
+			"value" : "/Users/felipeazevedo/Documents/ucb/estrutura-de-dados/c-projects/cmake-build-debug"
 		},
 		{
 			"name" : "c_projects_IS_TOP_LEVEL",
@@ -1039,7 +1039,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/felipeazevedo/Documents/ucb/programacao-estruturada/c-projects"
+			"value" : "/Users/felipeazevedo/Documents/ucb/estrutura-de-dados/c-projects"
 		}
 	],
 	"kind" : "cache",

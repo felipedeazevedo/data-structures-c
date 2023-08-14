@@ -1,4 +1,4 @@
-# Install script for directory: /Users/felipeazevedo/Documents/ucb/programacao-estruturada/c-projects
+# Install script for directory: /Users/felipeazevedo/Documents/ucb/estrutura-de-dados/c-projects
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/felipeazevedo/Documents/ucb/programacao-estruturada/c-projects/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/felipeazevedo/Documents/ucb/estrutura-de-dados/c-projects/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
