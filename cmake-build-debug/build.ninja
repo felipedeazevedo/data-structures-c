@@ -72,35 +72,97 @@ build fatorial: C_EXECUTABLE_LINKER__fatorial_Debug CMakeFiles/fatorial.dir/exer
   TARGET_PDB = fatorial.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target fibonacci
+# Object build statements for EXECUTABLE target fatorial_fibonacci
 
 
 #############################################
-# Order-only phony target for fibonacci
+# Order-only phony target for fatorial_fibonacci
 
-build cmake_object_order_depends_target_fibonacci: phony || CMakeFiles/fibonacci.dir
+build cmake_object_order_depends_target_fatorial_fibonacci: phony || CMakeFiles/fatorial_fibonacci.dir
 
-build CMakeFiles/fibonacci.dir/exercicios-sala/fatorial_fibonacci.c.o: C_COMPILER__fibonacci_unscanned_Debug /Users/felipeazevedo/Documents/ucb/estrutura-de-dados/c-projects/exercicios-sala/fatorial_fibonacci.c || cmake_object_order_depends_target_fibonacci
-  DEP_FILE = CMakeFiles/fibonacci.dir/exercicios-sala/fatorial_fibonacci.c.o.d
+build CMakeFiles/fatorial_fibonacci.dir/exercicios-sala/fatorial_fibonacci.c.o: C_COMPILER__fatorial_fibonacci_unscanned_Debug /Users/felipeazevedo/Documents/ucb/estrutura-de-dados/c-projects/exercicios-sala/fatorial_fibonacci.c || cmake_object_order_depends_target_fatorial_fibonacci
+  DEP_FILE = CMakeFiles/fatorial_fibonacci.dir/exercicios-sala/fatorial_fibonacci.c.o.d
   FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/fibonacci.dir
-  OBJECT_FILE_DIR = CMakeFiles/fibonacci.dir/exercicios-sala
+  OBJECT_DIR = CMakeFiles/fatorial_fibonacci.dir
+  OBJECT_FILE_DIR = CMakeFiles/fatorial_fibonacci.dir/exercicios-sala
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target fibonacci
+# Link build statements for EXECUTABLE target fatorial_fibonacci
 
 
 #############################################
-# Link the executable fibonacci
+# Link the executable fatorial_fibonacci
 
-build fibonacci: C_EXECUTABLE_LINKER__fibonacci_Debug CMakeFiles/fibonacci.dir/exercicios-sala/fatorial_fibonacci.c.o
+build fatorial_fibonacci: C_EXECUTABLE_LINKER__fatorial_fibonacci_Debug CMakeFiles/fatorial_fibonacci.dir/exercicios-sala/fatorial_fibonacci.c.o
   FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
-  OBJECT_DIR = CMakeFiles/fibonacci.dir
+  OBJECT_DIR = CMakeFiles/fatorial_fibonacci.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = fibonacci
-  TARGET_PDB = fibonacci.dbg
+  TARGET_FILE = fatorial_fibonacci
+  TARGET_PDB = fatorial_fibonacci.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target arrays
+
+
+#############################################
+# Order-only phony target for arrays
+
+build cmake_object_order_depends_target_arrays: phony || CMakeFiles/arrays.dir
+
+build CMakeFiles/arrays.dir/exercicios-sala/arrays.c.o: C_COMPILER__arrays_unscanned_Debug /Users/felipeazevedo/Documents/ucb/estrutura-de-dados/c-projects/exercicios-sala/arrays.c || cmake_object_order_depends_target_arrays
+  DEP_FILE = CMakeFiles/arrays.dir/exercicios-sala/arrays.c.o.d
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/arrays.dir
+  OBJECT_FILE_DIR = CMakeFiles/arrays.dir/exercicios-sala
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target arrays
+
+
+#############################################
+# Link the executable arrays
+
+build arrays: C_EXECUTABLE_LINKER__arrays_Debug CMakeFiles/arrays.dir/exercicios-sala/arrays.c.o
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/arrays.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = arrays
+  TARGET_PDB = arrays.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target matrizes
+
+
+#############################################
+# Order-only phony target for matrizes
+
+build cmake_object_order_depends_target_matrizes: phony || CMakeFiles/matrizes.dir
+
+build CMakeFiles/matrizes.dir/exercicios-sala/matrizes.c.o: C_COMPILER__matrizes_unscanned_Debug /Users/felipeazevedo/Documents/ucb/estrutura-de-dados/c-projects/exercicios-sala/matrizes.c || cmake_object_order_depends_target_matrizes
+  DEP_FILE = CMakeFiles/matrizes.dir/exercicios-sala/matrizes.c.o.d
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/matrizes.dir
+  OBJECT_FILE_DIR = CMakeFiles/matrizes.dir/exercicios-sala
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target matrizes
+
+
+#############################################
+# Link the executable matrizes
+
+build matrizes: C_EXECUTABLE_LINKER__matrizes_Debug CMakeFiles/matrizes.dir/exercicios-sala/matrizes.c.o
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/matrizes.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = matrizes
+  TARGET_PDB = matrizes.dbg
 
 
 #############################################
@@ -136,7 +198,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/felipeazevedo/Documents/ucb/estrutura-de-dados/c-projects/cmake-build-debug
 
-build all: phony fatorial fibonacci
+build all: phony fatorial fatorial_fibonacci arrays matrizes
 
 # =============================================================================
 # Built-in targets

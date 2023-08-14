@@ -1,4 +1,6 @@
 /Users/felipeazevedo/Documents/ucb/estrutura-de-dados/c-projects/cmake-build-debug/CMakeFiles/fatorial.dir
-/Users/felipeazevedo/Documents/ucb/estrutura-de-dados/c-projects/cmake-build-debug/CMakeFiles/fibonacci.dir
+/Users/felipeazevedo/Documents/ucb/estrutura-de-dados/c-projects/cmake-build-debug/CMakeFiles/fatorial_fibonacci.dir
+/Users/felipeazevedo/Documents/ucb/estrutura-de-dados/c-projects/cmake-build-debug/CMakeFiles/arrays.dir
+/Users/felipeazevedo/Documents/ucb/estrutura-de-dados/c-projects/cmake-build-debug/CMakeFiles/matrizes.dir
 /Users/felipeazevedo/Documents/ucb/estrutura-de-dados/c-projects/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/felipeazevedo/Documents/ucb/estrutura-de-dados/c-projects/cmake-build-debug/CMakeFiles/rebuild_cache.dir
