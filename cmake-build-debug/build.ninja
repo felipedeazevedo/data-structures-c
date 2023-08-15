@@ -164,6 +164,130 @@ build matrizes: C_EXECUTABLE_LINKER__matrizes_Debug CMakeFiles/matrizes.dir/exer
   TARGET_FILE = matrizes
   TARGET_PDB = matrizes.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target struct
+
+
+#############################################
+# Order-only phony target for struct
+
+build cmake_object_order_depends_target_struct: phony || CMakeFiles/struct.dir
+
+build CMakeFiles/struct.dir/exercicios-sala/struct.c.o: C_COMPILER__struct_unscanned_Debug /Users/felipeazevedo/Documents/ucb/estrutura-de-dados/c-projects/exercicios-sala/struct.c || cmake_object_order_depends_target_struct
+  DEP_FILE = CMakeFiles/struct.dir/exercicios-sala/struct.c.o.d
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/struct.dir
+  OBJECT_FILE_DIR = CMakeFiles/struct.dir/exercicios-sala
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target struct
+
+
+#############################################
+# Link the executable struct
+
+build struct: C_EXECUTABLE_LINKER__struct_Debug CMakeFiles/struct.dir/exercicios-sala/struct.c.o
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/struct.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = struct
+  TARGET_PDB = struct.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target funcao
+
+
+#############################################
+# Order-only phony target for funcao
+
+build cmake_object_order_depends_target_funcao: phony || CMakeFiles/funcao.dir
+
+build CMakeFiles/funcao.dir/exercicios-sala/funcao.c.o: C_COMPILER__funcao_unscanned_Debug /Users/felipeazevedo/Documents/ucb/estrutura-de-dados/c-projects/exercicios-sala/funcao.c || cmake_object_order_depends_target_funcao
+  DEP_FILE = CMakeFiles/funcao.dir/exercicios-sala/funcao.c.o.d
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/funcao.dir
+  OBJECT_FILE_DIR = CMakeFiles/funcao.dir/exercicios-sala
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target funcao
+
+
+#############################################
+# Link the executable funcao
+
+build funcao: C_EXECUTABLE_LINKER__funcao_Debug CMakeFiles/funcao.dir/exercicios-sala/funcao.c.o
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/funcao.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = funcao
+  TARGET_PDB = funcao.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target struct2
+
+
+#############################################
+# Order-only phony target for struct2
+
+build cmake_object_order_depends_target_struct2: phony || CMakeFiles/struct2.dir
+
+build CMakeFiles/struct2.dir/exercicios-sala/struct2.c.o: C_COMPILER__struct2_unscanned_Debug /Users/felipeazevedo/Documents/ucb/estrutura-de-dados/c-projects/exercicios-sala/struct2.c || cmake_object_order_depends_target_struct2
+  DEP_FILE = CMakeFiles/struct2.dir/exercicios-sala/struct2.c.o.d
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/struct2.dir
+  OBJECT_FILE_DIR = CMakeFiles/struct2.dir/exercicios-sala
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target struct2
+
+
+#############################################
+# Link the executable struct2
+
+build struct2: C_EXECUTABLE_LINKER__struct2_Debug CMakeFiles/struct2.dir/exercicios-sala/struct2.c.o
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/struct2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = struct2
+  TARGET_PDB = struct2.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target retornando_array
+
+
+#############################################
+# Order-only phony target for retornando_array
+
+build cmake_object_order_depends_target_retornando_array: phony || CMakeFiles/retornando_array.dir
+
+build CMakeFiles/retornando_array.dir/exercicios-sala/retornando_array.c.o: C_COMPILER__retornando_array_unscanned_Debug /Users/felipeazevedo/Documents/ucb/estrutura-de-dados/c-projects/exercicios-sala/retornando_array.c || cmake_object_order_depends_target_retornando_array
+  DEP_FILE = CMakeFiles/retornando_array.dir/exercicios-sala/retornando_array.c.o.d
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/retornando_array.dir
+  OBJECT_FILE_DIR = CMakeFiles/retornando_array.dir/exercicios-sala
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target retornando_array
+
+
+#############################################
+# Link the executable retornando_array
+
+build retornando_array: C_EXECUTABLE_LINKER__retornando_array_Debug CMakeFiles/retornando_array.dir/exercicios-sala/retornando_array.c.o
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/retornando_array.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = retornando_array
+  TARGET_PDB = retornando_array.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -198,7 +322,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/felipeazevedo/Documents/ucb/estrutura-de-dados/c-projects/cmake-build-debug
 
-build all: phony fatorial fatorial_fibonacci arrays matrizes
+build all: phony fatorial fatorial_fibonacci arrays matrizes struct funcao struct2 retornando_array
 
 # =============================================================================
 # Built-in targets

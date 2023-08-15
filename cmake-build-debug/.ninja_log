@@ -1,9 +1,17 @@
 # ninja log v5
-0	127	1692053448691371164	build.ninja	1dd18318e8a9d7c6
+0	127	1692058907093543769	build.ninja	1dd18318e8a9d7c6
 180	262	1691450362013337012	main	e577619b277db1ae
+67	142	1692055014923752361	struct	cd57521ece6f13cb
 77	168	1692052132675192810	fatorial	c58297e7d78a8e99
-0	70	1692052142788137786	CMakeFiles/fibonacci.dir/exercicios-sala/fatorial_fibonacci.c.o	d496ffc4a28d743f
-0	77	1692052132583666042	CMakeFiles/fatorial.dir/exercicios-sala/fatorial.c.o	371a6e30023c3ccc
-70	146	1692052142865317698	fibonacci	41aa8c26f53e5e23
+0	68	1692058543440998540	CMakeFiles/struct2.dir/exercicios-sala/struct2.c.o	64729a3283bc0123
 1	126	1692052631307634430	CMakeFiles/arrays1.dir/exercicios-sala/arrays.c.o	5c7ff1f83e7d77b
+0	67	1692055014848269454	CMakeFiles/struct.dir/exercicios-sala/struct.c.o	6954d49bec6f24d
+0	77	1692052132583666042	CMakeFiles/fatorial.dir/exercicios-sala/fatorial.c.o	371a6e30023c3ccc
+0	70	1692052142788137786	CMakeFiles/fibonacci.dir/exercicios-sala/fatorial_fibonacci.c.o	d496ffc4a28d743f
+1	71	1692054132689109645	CMakeFiles/matrizes.dir/exercicios-sala/matrizes.c.o	c93ef14f782e82d9
+1	211	1692058482083370144	CMakeFiles/funcao.dir/exercicios-sala/funcao.c.o	ef76c7e10aebe9f2
+70	146	1692052142865317698	fibonacci	41aa8c26f53e5e23
+211	297	1692058482170445149	funcao	74489bb68ebeb628
+71	144	1692054132763397717	matrizes	18cb394a7b9ca7fe
 127	211	1692052631393198313	arrays1	2eaef64c05b775d
+68	140	1692058543512651164	struct2	58938d9809734fb3
