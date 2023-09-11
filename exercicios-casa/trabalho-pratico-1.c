@@ -46,8 +46,6 @@ int main() {
         }
     } while (!feof(arquivoLido));
 
-    printf("lidas = %d", linhas_lidas);
-
     for (int i = 0; i < linhas_lidas; i++) {
         float media = (alunos[i].nota1 + alunos[i].nota2) / 2;
         strcpy(alunos[i].situacao, media < 7 ? "REPROVADO" : "APROVADO");
