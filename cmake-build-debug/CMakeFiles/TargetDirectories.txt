@@ -6,5 +6,13 @@
 /Users/felipeazevedo/Documents/ucb/estrutura-de-dados/c-projects/cmake-build-debug/CMakeFiles/funcao.dir
 /Users/felipeazevedo/Documents/ucb/estrutura-de-dados/c-projects/cmake-build-debug/CMakeFiles/struct2.dir
 /Users/felipeazevedo/Documents/ucb/estrutura-de-dados/c-projects/cmake-build-debug/CMakeFiles/retornando_array.dir
+/Users/felipeazevedo/Documents/ucb/estrutura-de-dados/c-projects/cmake-build-debug/CMakeFiles/arquivo_exemplo1.dir
+/Users/felipeazevedo/Documents/ucb/estrutura-de-dados/c-projects/cmake-build-debug/CMakeFiles/arquivo_exemplo2.dir
+/Users/felipeazevedo/Documents/ucb/estrutura-de-dados/c-projects/cmake-build-debug/CMakeFiles/arquivo_exemplo3.dir
+/Users/felipeazevedo/Documents/ucb/estrutura-de-dados/c-projects/cmake-build-debug/CMakeFiles/arquivo_exemplo4.dir
+/Users/felipeazevedo/Documents/ucb/estrutura-de-dados/c-projects/cmake-build-debug/CMakeFiles/fibonacci_com_tempo.dir
+/Users/felipeazevedo/Documents/ucb/estrutura-de-dados/c-projects/cmake-build-debug/CMakeFiles/gerador_de_vetor_aleatorio.dir
+/Users/felipeazevedo/Documents/ucb/estrutura-de-dados/c-projects/cmake-build-debug/CMakeFiles/insertion_sort.dir
+/Users/felipeazevedo/Documents/ucb/estrutura-de-dados/c-projects/cmake-build-debug/CMakeFiles/trabalho-pratico-1.dir
 /Users/felipeazevedo/Documents/ucb/estrutura-de-dados/c-projects/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/felipeazevedo/Documents/ucb/estrutura-de-dados/c-projects/cmake-build-debug/CMakeFiles/rebuild_cache.dir

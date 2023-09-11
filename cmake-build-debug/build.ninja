@@ -54,6 +54,8 @@ build CMakeFiles/fatorial.dir/exercicios-sala/fatorial.c.o: C_COMPILER__fatorial
   FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/fatorial.dir
   OBJECT_FILE_DIR = CMakeFiles/fatorial.dir/exercicios-sala
+  TARGET_COMPILE_PDB = CMakeFiles/fatorial.dir/
+  TARGET_PDB = fatorial.pdb
 
 
 # =============================================================================
@@ -68,8 +70,9 @@ build fatorial: C_EXECUTABLE_LINKER__fatorial_Debug CMakeFiles/fatorial.dir/exer
   OBJECT_DIR = CMakeFiles/fatorial.dir
   POST_BUILD = :
   PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/fatorial.dir/
   TARGET_FILE = fatorial
-  TARGET_PDB = fatorial.dbg
+  TARGET_PDB = fatorial.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target fatorial_fibonacci
@@ -85,6 +88,8 @@ build CMakeFiles/fatorial_fibonacci.dir/exercicios-sala/fatorial_fibonacci.c.o: 
   FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/fatorial_fibonacci.dir
   OBJECT_FILE_DIR = CMakeFiles/fatorial_fibonacci.dir/exercicios-sala
+  TARGET_COMPILE_PDB = CMakeFiles/fatorial_fibonacci.dir/
+  TARGET_PDB = fatorial_fibonacci.pdb
 
 
 # =============================================================================
@@ -99,8 +104,9 @@ build fatorial_fibonacci: C_EXECUTABLE_LINKER__fatorial_fibonacci_Debug CMakeFil
   OBJECT_DIR = CMakeFiles/fatorial_fibonacci.dir
   POST_BUILD = :
   PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/fatorial_fibonacci.dir/
   TARGET_FILE = fatorial_fibonacci
-  TARGET_PDB = fatorial_fibonacci.dbg
+  TARGET_PDB = fatorial_fibonacci.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target arrays
@@ -116,6 +122,8 @@ build CMakeFiles/arrays.dir/exercicios-sala/arrays.c.o: C_COMPILER__arrays_unsca
   FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/arrays.dir
   OBJECT_FILE_DIR = CMakeFiles/arrays.dir/exercicios-sala
+  TARGET_COMPILE_PDB = CMakeFiles/arrays.dir/
+  TARGET_PDB = arrays.pdb
 
 
 # =============================================================================
@@ -130,8 +138,9 @@ build arrays: C_EXECUTABLE_LINKER__arrays_Debug CMakeFiles/arrays.dir/exercicios
   OBJECT_DIR = CMakeFiles/arrays.dir
   POST_BUILD = :
   PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/arrays.dir/
   TARGET_FILE = arrays
-  TARGET_PDB = arrays.dbg
+  TARGET_PDB = arrays.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target matrizes
@@ -147,6 +156,8 @@ build CMakeFiles/matrizes.dir/exercicios-sala/matrizes.c.o: C_COMPILER__matrizes
   FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/matrizes.dir
   OBJECT_FILE_DIR = CMakeFiles/matrizes.dir/exercicios-sala
+  TARGET_COMPILE_PDB = CMakeFiles/matrizes.dir/
+  TARGET_PDB = matrizes.pdb
 
 
 # =============================================================================
@@ -161,8 +172,9 @@ build matrizes: C_EXECUTABLE_LINKER__matrizes_Debug CMakeFiles/matrizes.dir/exer
   OBJECT_DIR = CMakeFiles/matrizes.dir
   POST_BUILD = :
   PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/matrizes.dir/
   TARGET_FILE = matrizes
-  TARGET_PDB = matrizes.dbg
+  TARGET_PDB = matrizes.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target struct
@@ -178,6 +190,8 @@ build CMakeFiles/struct.dir/exercicios-sala/struct.c.o: C_COMPILER__struct_unsca
   FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/struct.dir
   OBJECT_FILE_DIR = CMakeFiles/struct.dir/exercicios-sala
+  TARGET_COMPILE_PDB = CMakeFiles/struct.dir/
+  TARGET_PDB = struct.pdb
 
 
 # =============================================================================
@@ -192,8 +206,9 @@ build struct: C_EXECUTABLE_LINKER__struct_Debug CMakeFiles/struct.dir/exercicios
   OBJECT_DIR = CMakeFiles/struct.dir
   POST_BUILD = :
   PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/struct.dir/
   TARGET_FILE = struct
-  TARGET_PDB = struct.dbg
+  TARGET_PDB = struct.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target funcao
@@ -209,6 +224,8 @@ build CMakeFiles/funcao.dir/exercicios-sala/funcao.c.o: C_COMPILER__funcao_unsca
   FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/funcao.dir
   OBJECT_FILE_DIR = CMakeFiles/funcao.dir/exercicios-sala
+  TARGET_COMPILE_PDB = CMakeFiles/funcao.dir/
+  TARGET_PDB = funcao.pdb
 
 
 # =============================================================================
@@ -223,8 +240,9 @@ build funcao: C_EXECUTABLE_LINKER__funcao_Debug CMakeFiles/funcao.dir/exercicios
   OBJECT_DIR = CMakeFiles/funcao.dir
   POST_BUILD = :
   PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/funcao.dir/
   TARGET_FILE = funcao
-  TARGET_PDB = funcao.dbg
+  TARGET_PDB = funcao.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target struct2
@@ -240,6 +258,8 @@ build CMakeFiles/struct2.dir/exercicios-sala/struct2.c.o: C_COMPILER__struct2_un
   FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/struct2.dir
   OBJECT_FILE_DIR = CMakeFiles/struct2.dir/exercicios-sala
+  TARGET_COMPILE_PDB = CMakeFiles/struct2.dir/
+  TARGET_PDB = struct2.pdb
 
 
 # =============================================================================
@@ -254,8 +274,9 @@ build struct2: C_EXECUTABLE_LINKER__struct2_Debug CMakeFiles/struct2.dir/exercic
   OBJECT_DIR = CMakeFiles/struct2.dir
   POST_BUILD = :
   PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/struct2.dir/
   TARGET_FILE = struct2
-  TARGET_PDB = struct2.dbg
+  TARGET_PDB = struct2.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target retornando_array
@@ -271,6 +292,8 @@ build CMakeFiles/retornando_array.dir/exercicios-sala/retornando_array.c.o: C_CO
   FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/retornando_array.dir
   OBJECT_FILE_DIR = CMakeFiles/retornando_array.dir/exercicios-sala
+  TARGET_COMPILE_PDB = CMakeFiles/retornando_array.dir/
+  TARGET_PDB = retornando_array.pdb
 
 
 # =============================================================================
@@ -285,8 +308,281 @@ build retornando_array: C_EXECUTABLE_LINKER__retornando_array_Debug CMakeFiles/r
   OBJECT_DIR = CMakeFiles/retornando_array.dir
   POST_BUILD = :
   PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/retornando_array.dir/
   TARGET_FILE = retornando_array
-  TARGET_PDB = retornando_array.dbg
+  TARGET_PDB = retornando_array.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target arquivo_exemplo1
+
+
+#############################################
+# Order-only phony target for arquivo_exemplo1
+
+build cmake_object_order_depends_target_arquivo_exemplo1: phony || CMakeFiles/arquivo_exemplo1.dir
+
+build CMakeFiles/arquivo_exemplo1.dir/exercicios-sala/arquivo_exemplo1.c.o: C_COMPILER__arquivo_exemplo1_unscanned_Debug /Users/felipeazevedo/Documents/ucb/estrutura-de-dados/c-projects/exercicios-sala/arquivo_exemplo1.c || cmake_object_order_depends_target_arquivo_exemplo1
+  DEP_FILE = CMakeFiles/arquivo_exemplo1.dir/exercicios-sala/arquivo_exemplo1.c.o.d
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/arquivo_exemplo1.dir
+  OBJECT_FILE_DIR = CMakeFiles/arquivo_exemplo1.dir/exercicios-sala
+  TARGET_COMPILE_PDB = CMakeFiles/arquivo_exemplo1.dir/
+  TARGET_PDB = arquivo_exemplo1.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target arquivo_exemplo1
+
+
+#############################################
+# Link the executable arquivo_exemplo1
+
+build arquivo_exemplo1: C_EXECUTABLE_LINKER__arquivo_exemplo1_Debug CMakeFiles/arquivo_exemplo1.dir/exercicios-sala/arquivo_exemplo1.c.o
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/arquivo_exemplo1.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/arquivo_exemplo1.dir/
+  TARGET_FILE = arquivo_exemplo1
+  TARGET_PDB = arquivo_exemplo1.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target arquivo_exemplo2
+
+
+#############################################
+# Order-only phony target for arquivo_exemplo2
+
+build cmake_object_order_depends_target_arquivo_exemplo2: phony || CMakeFiles/arquivo_exemplo2.dir
+
+build CMakeFiles/arquivo_exemplo2.dir/exercicios-sala/arquivo_exemplo2.c.o: C_COMPILER__arquivo_exemplo2_unscanned_Debug /Users/felipeazevedo/Documents/ucb/estrutura-de-dados/c-projects/exercicios-sala/arquivo_exemplo2.c || cmake_object_order_depends_target_arquivo_exemplo2
+  DEP_FILE = CMakeFiles/arquivo_exemplo2.dir/exercicios-sala/arquivo_exemplo2.c.o.d
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/arquivo_exemplo2.dir
+  OBJECT_FILE_DIR = CMakeFiles/arquivo_exemplo2.dir/exercicios-sala
+  TARGET_COMPILE_PDB = CMakeFiles/arquivo_exemplo2.dir/
+  TARGET_PDB = arquivo_exemplo2.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target arquivo_exemplo2
+
+
+#############################################
+# Link the executable arquivo_exemplo2
+
+build arquivo_exemplo2: C_EXECUTABLE_LINKER__arquivo_exemplo2_Debug CMakeFiles/arquivo_exemplo2.dir/exercicios-sala/arquivo_exemplo2.c.o
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/arquivo_exemplo2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/arquivo_exemplo2.dir/
+  TARGET_FILE = arquivo_exemplo2
+  TARGET_PDB = arquivo_exemplo2.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target arquivo_exemplo3
+
+
+#############################################
+# Order-only phony target for arquivo_exemplo3
+
+build cmake_object_order_depends_target_arquivo_exemplo3: phony || CMakeFiles/arquivo_exemplo3.dir
+
+build CMakeFiles/arquivo_exemplo3.dir/exercicios-sala/arquivo_exemplo3.c.o: C_COMPILER__arquivo_exemplo3_unscanned_Debug /Users/felipeazevedo/Documents/ucb/estrutura-de-dados/c-projects/exercicios-sala/arquivo_exemplo3.c || cmake_object_order_depends_target_arquivo_exemplo3
+  DEP_FILE = CMakeFiles/arquivo_exemplo3.dir/exercicios-sala/arquivo_exemplo3.c.o.d
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/arquivo_exemplo3.dir
+  OBJECT_FILE_DIR = CMakeFiles/arquivo_exemplo3.dir/exercicios-sala
+  TARGET_COMPILE_PDB = CMakeFiles/arquivo_exemplo3.dir/
+  TARGET_PDB = arquivo_exemplo3.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target arquivo_exemplo3
+
+
+#############################################
+# Link the executable arquivo_exemplo3
+
+build arquivo_exemplo3: C_EXECUTABLE_LINKER__arquivo_exemplo3_Debug CMakeFiles/arquivo_exemplo3.dir/exercicios-sala/arquivo_exemplo3.c.o
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/arquivo_exemplo3.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/arquivo_exemplo3.dir/
+  TARGET_FILE = arquivo_exemplo3
+  TARGET_PDB = arquivo_exemplo3.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target arquivo_exemplo4
+
+
+#############################################
+# Order-only phony target for arquivo_exemplo4
+
+build cmake_object_order_depends_target_arquivo_exemplo4: phony || CMakeFiles/arquivo_exemplo4.dir
+
+build CMakeFiles/arquivo_exemplo4.dir/exercicios-sala/arquivo_exemplo4.c.o: C_COMPILER__arquivo_exemplo4_unscanned_Debug /Users/felipeazevedo/Documents/ucb/estrutura-de-dados/c-projects/exercicios-sala/arquivo_exemplo4.c || cmake_object_order_depends_target_arquivo_exemplo4
+  DEP_FILE = CMakeFiles/arquivo_exemplo4.dir/exercicios-sala/arquivo_exemplo4.c.o.d
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/arquivo_exemplo4.dir
+  OBJECT_FILE_DIR = CMakeFiles/arquivo_exemplo4.dir/exercicios-sala
+  TARGET_COMPILE_PDB = CMakeFiles/arquivo_exemplo4.dir/
+  TARGET_PDB = arquivo_exemplo4.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target arquivo_exemplo4
+
+
+#############################################
+# Link the executable arquivo_exemplo4
+
+build arquivo_exemplo4: C_EXECUTABLE_LINKER__arquivo_exemplo4_Debug CMakeFiles/arquivo_exemplo4.dir/exercicios-sala/arquivo_exemplo4.c.o
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/arquivo_exemplo4.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/arquivo_exemplo4.dir/
+  TARGET_FILE = arquivo_exemplo4
+  TARGET_PDB = arquivo_exemplo4.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target fibonacci_com_tempo
+
+
+#############################################
+# Order-only phony target for fibonacci_com_tempo
+
+build cmake_object_order_depends_target_fibonacci_com_tempo: phony || CMakeFiles/fibonacci_com_tempo.dir
+
+build CMakeFiles/fibonacci_com_tempo.dir/exercicios-sala/fibonacci_com_tempo.c.o: C_COMPILER__fibonacci_com_tempo_unscanned_Debug /Users/felipeazevedo/Documents/ucb/estrutura-de-dados/c-projects/exercicios-sala/fibonacci_com_tempo.c || cmake_object_order_depends_target_fibonacci_com_tempo
+  DEP_FILE = CMakeFiles/fibonacci_com_tempo.dir/exercicios-sala/fibonacci_com_tempo.c.o.d
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/fibonacci_com_tempo.dir
+  OBJECT_FILE_DIR = CMakeFiles/fibonacci_com_tempo.dir/exercicios-sala
+  TARGET_COMPILE_PDB = CMakeFiles/fibonacci_com_tempo.dir/
+  TARGET_PDB = fibonacci_com_tempo.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target fibonacci_com_tempo
+
+
+#############################################
+# Link the executable fibonacci_com_tempo
+
+build fibonacci_com_tempo: C_EXECUTABLE_LINKER__fibonacci_com_tempo_Debug CMakeFiles/fibonacci_com_tempo.dir/exercicios-sala/fibonacci_com_tempo.c.o
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/fibonacci_com_tempo.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/fibonacci_com_tempo.dir/
+  TARGET_FILE = fibonacci_com_tempo
+  TARGET_PDB = fibonacci_com_tempo.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target gerador_de_vetor_aleatorio
+
+
+#############################################
+# Order-only phony target for gerador_de_vetor_aleatorio
+
+build cmake_object_order_depends_target_gerador_de_vetor_aleatorio: phony || CMakeFiles/gerador_de_vetor_aleatorio.dir
+
+build CMakeFiles/gerador_de_vetor_aleatorio.dir/exercicios-sala/gerador_de_vetor_aleatorio.c.o: C_COMPILER__gerador_de_vetor_aleatorio_unscanned_Debug /Users/felipeazevedo/Documents/ucb/estrutura-de-dados/c-projects/exercicios-sala/gerador_de_vetor_aleatorio.c || cmake_object_order_depends_target_gerador_de_vetor_aleatorio
+  DEP_FILE = CMakeFiles/gerador_de_vetor_aleatorio.dir/exercicios-sala/gerador_de_vetor_aleatorio.c.o.d
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/gerador_de_vetor_aleatorio.dir
+  OBJECT_FILE_DIR = CMakeFiles/gerador_de_vetor_aleatorio.dir/exercicios-sala
+  TARGET_COMPILE_PDB = CMakeFiles/gerador_de_vetor_aleatorio.dir/
+  TARGET_PDB = gerador_de_vetor_aleatorio.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target gerador_de_vetor_aleatorio
+
+
+#############################################
+# Link the executable gerador_de_vetor_aleatorio
+
+build gerador_de_vetor_aleatorio: C_EXECUTABLE_LINKER__gerador_de_vetor_aleatorio_Debug CMakeFiles/gerador_de_vetor_aleatorio.dir/exercicios-sala/gerador_de_vetor_aleatorio.c.o
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/gerador_de_vetor_aleatorio.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/gerador_de_vetor_aleatorio.dir/
+  TARGET_FILE = gerador_de_vetor_aleatorio
+  TARGET_PDB = gerador_de_vetor_aleatorio.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target insertion_sort
+
+
+#############################################
+# Order-only phony target for insertion_sort
+
+build cmake_object_order_depends_target_insertion_sort: phony || CMakeFiles/insertion_sort.dir
+
+build CMakeFiles/insertion_sort.dir/exercicios-sala/insertion_sort.c.o: C_COMPILER__insertion_sort_unscanned_Debug /Users/felipeazevedo/Documents/ucb/estrutura-de-dados/c-projects/exercicios-sala/insertion_sort.c || cmake_object_order_depends_target_insertion_sort
+  DEP_FILE = CMakeFiles/insertion_sort.dir/exercicios-sala/insertion_sort.c.o.d
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/insertion_sort.dir
+  OBJECT_FILE_DIR = CMakeFiles/insertion_sort.dir/exercicios-sala
+  TARGET_COMPILE_PDB = CMakeFiles/insertion_sort.dir/
+  TARGET_PDB = insertion_sort.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target insertion_sort
+
+
+#############################################
+# Link the executable insertion_sort
+
+build insertion_sort: C_EXECUTABLE_LINKER__insertion_sort_Debug CMakeFiles/insertion_sort.dir/exercicios-sala/insertion_sort.c.o
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/insertion_sort.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/insertion_sort.dir/
+  TARGET_FILE = insertion_sort
+  TARGET_PDB = insertion_sort.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target trabalho-pratico-1
+
+
+#############################################
+# Order-only phony target for trabalho-pratico-1
+
+build cmake_object_order_depends_target_trabalho-pratico-1: phony || CMakeFiles/trabalho-pratico-1.dir
+
+build CMakeFiles/trabalho-pratico-1.dir/exercicios-casa/trabalho-pratico-1.c.o: C_COMPILER__trabalho-pratico-1_unscanned_Debug /Users/felipeazevedo/Documents/ucb/estrutura-de-dados/c-projects/exercicios-casa/trabalho-pratico-1.c || cmake_object_order_depends_target_trabalho-pratico-1
+  DEP_FILE = CMakeFiles/trabalho-pratico-1.dir/exercicios-casa/trabalho-pratico-1.c.o.d
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/trabalho-pratico-1.dir
+  OBJECT_FILE_DIR = CMakeFiles/trabalho-pratico-1.dir/exercicios-casa
+  TARGET_COMPILE_PDB = CMakeFiles/trabalho-pratico-1.dir/
+  TARGET_PDB = trabalho-pratico-1.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target trabalho-pratico-1
+
+
+#############################################
+# Link the executable trabalho-pratico-1
+
+build trabalho-pratico-1: C_EXECUTABLE_LINKER__trabalho-pratico-1_Debug CMakeFiles/trabalho-pratico-1.dir/exercicios-casa/trabalho-pratico-1.c.o
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/trabalho-pratico-1.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/trabalho-pratico-1.dir/
+  TARGET_FILE = trabalho-pratico-1
+  TARGET_PDB = trabalho-pratico-1.pdb
 
 
 #############################################
@@ -322,7 +618,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/felipeazevedo/Documents/ucb/estrutura-de-dados/c-projects/cmake-build-debug
 
-build all: phony fatorial fatorial_fibonacci arrays matrizes struct funcao struct2 retornando_array
+build all: phony fatorial fatorial_fibonacci arrays matrizes struct funcao struct2 retornando_array arquivo_exemplo1 arquivo_exemplo2 arquivo_exemplo3 arquivo_exemplo4 fibonacci_com_tempo gerador_de_vetor_aleatorio insertion_sort trabalho-pratico-1
 
 # =============================================================================
 # Built-in targets
@@ -331,14 +627,14 @@ build all: phony fatorial fatorial_fibonacci arrays matrizes struct funcao struc
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/UnixPaths.cmake /Users/felipeazevedo/Documents/ucb/estrutura-de-dados/c-projects/CMakeLists.txt CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCCompiler.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCCompilerABI.c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCompilerIdDetection.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeDetermineCompileFeatures.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeDetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeFindBinUtils.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeParseImplicitIncludeInfo.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeParseImplicitLinkInfo.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeParseLibraryArchitecture.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeSystem.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeTestCompilerCommon.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/ADSP-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/ARMCC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/ARMClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/AppleClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Borland-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Clang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Cray-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/GHS-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/GNU-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/HP-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/IAR-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Intel-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/LCC-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/MSVC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/NVHPC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/PGI-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/PathScale-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/SCO-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/TI-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Tasking-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Watcom-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/XL-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/zOS-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Internal/FeatureTesting.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/UnixPaths.cmake /Users/felipeazevedo/Documents/ucb/estrutura-de-dados/c-projects/CMakeLists.txt CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/UnixPaths.cmake /Users/felipeazevedo/Documents/ucb/estrutura-de-dados/c-projects/CMakeLists.txt CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake: phony
+build /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCCompiler.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCCompilerABI.c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCompilerIdDetection.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeDetermineCompileFeatures.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeDetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeFindBinUtils.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeParseImplicitIncludeInfo.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeParseImplicitLinkInfo.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeParseLibraryArchitecture.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeSystem.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeTestCompilerCommon.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/ADSP-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/ARMCC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/ARMClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/AppleClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Borland-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Clang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Cray-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/GHS-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/GNU-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/HP-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/IAR-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Intel-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/LCC-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/MSVC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/NVHPC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/PGI-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/PathScale-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/SCO-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/TI-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Tasking-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Watcom-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/XL-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/zOS-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Internal/FeatureTesting.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/UnixPaths.cmake /Users/felipeazevedo/Documents/ucb/estrutura-de-dados/c-projects/CMakeLists.txt CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake: phony
 
 
 #############################################
